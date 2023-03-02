@@ -1,0 +1,180 @@
+.section{
+    border: 1px solid black;
+    max-width: 900px;
+    margin: 50px auto;
+    min-height: 400px;
+    background-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.box{
+    width: 80px;
+    height: 80px;
+    margin-top: 25px;
+    margin-left: 25px;
+    border: 1px solid green;
+    padding: 1rem 3rem;
+    text-align: center;
+    background-color: rgb(236, 214, 214); 
+    transform: rotate(351deg);  
+    box-shadow: 10px 10px 5px;
+    transition-duration: 5s;
+}
+.box:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    box-shadow: 5px 5px 5px 1px rgb(0, 0, 0, 0.3)
+    
+    
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+p{
+    margin-top: 15px;
+}
+
+.box1{
+    width: 80px;
+    height: 80px;
+    margin-top: 25px;
+    margin-left: 25px;
+    border: 1px solid green;
+    padding: 1rem 3rem;
+    text-align: center;
+    background-color: rgb(165, 224, 165);
+    transform: rotate(40deg);
+    box-shadow: 10px 10px 15px;
+    transition-duration: 5s;
+}
+.box1:hover{
+    cursor: pointer;
+    transform: translateY(0) scale(0.3);
+    box-shadow: 5px 5px 5px 1px rgb(0, 0, 0, 0.3)
+    
+}
+.box2{
+    width: 80px;
+    height: 80px;
+    margin-top: 25px;
+    margin-left: 25px;
+    border: 1px solid green;
+    padding: 1rem 3rem;
+    text-align: center;
+    background-color: rgb(197, 167, 197);
+    transition-duration: 5s;
+    transition: rotate(321deg);
+    box-shadow: 10px 10px 15px;
+    transition: all 5s;
+}
+.box2:hover{
+    
+    cursor: pointer;
+    transform: translateY(0) scale(1.5);
+    box-shadow: 5px 5px 5px 1px rgb(0, 0, 0, 0.3)
+    
+
+}
+.box3{
+    width: 80px;
+    height: 80px;
+    margin-top: 25px;
+    margin-left: 25px;
+    border: 1px solid green;
+    padding: 1rem 3rem;
+    text-align: center;
+    background-color: rgb(139, 223, 139);
+    transform: rotate(7deg);
+    box-shadow: 10px 10px 15px;
+    transition-duration: 5s;
+}
+.box3:hover{
+    cursor: pointer;
+    transform: translateY(0) scale(1.1);
+    box-shadow: 5px 5px 5px 1px rgb(0, 0, 0, 0.3)
+    
+}
+.box4{
+    width: 80px;
+    height: 80px;
+    margin-top: 25px;
+    margin-left: 25px;
+    border: 1px solid green;
+    padding: 1rem 3rem;
+    text-align: center;
+    background-color: rgb(230, 230, 161);
+    transform: rotate(711deg);
+    transition-duration: 5s;
+    box-shadow: 10px 10px 15px;
+}
+.box4:hover{
+    cursor: pointer;
+    transform:  scale(1.3);
+    box-shadow: 5px 5px 5px 1px rgb(0, 0, 0, 0.3)
+    
+    
+}
+
+.box5{
+    width: 80px;
+    height: 80px;
+    margin-top: 25px;
+    margin-left: 25px;
+    border: 1px solid green;
+    padding: 1rem 3rem;
+    text-align: center;
+    background-color: rgb(158, 158, 204);
+    transform: rotate(50deg);
+    box-shadow: 10px 10px 15px;
+    transition-duration: 5s;
+}
+.box5:hover{
+    cursor: pointer;
+    transform:  scale(0.7);
+    box-shadow: 5px 5px 5px 1px rgb(0, 0, 0, 0.3)
+    
+}
+.box6{
+    width: 80px;
+    height: 80px;
+    margin-top: 25px;
+    margin-left: 25px;
+    border: 1px solid green;
+    padding: 1rem 3rem;
+    text-align: center;
+    background-color: rgb(230, 230, 161);
+    transform: rotate(331deg);
+    box-shadow: 10px 10px 15px;
+    transition-duration: 5s;
+}
+.box6:hover{
+    cursor: pointer;
+    transform: translateX(0) scale(1.4);
+    box-shadow: 5px 5px 5px 1px rgb(0, 0, 0, 0.3)
+    
+}
+.box7{
+    width: 80px;
+    height: 80px;
+    margin-top: 25px;
+    margin-left: 25px;
+    border: 1px solid green;
+    padding: 1rem 3rem;
+    text-align: center;
+    background-color: rgb(134, 189, 134);
+    transform: rotate(10deg);
+    box-shadow: 10px 10px 15px;
+    transition-duration: 5s;
+}
+.box7:hover{
+    cursor: pointer;
+    transform: translateX(0) scale(1.2);
+    box-shadow: 5px 5px 5px 1px rgb(0, 0, 0, 0.3)
+    
+}
+
+
+
+
